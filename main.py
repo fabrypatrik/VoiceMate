@@ -1,14 +1,9 @@
 from os import system
 import speech_recognition as sr
-from playsound import playsound
 from gpt4all import GPT4All
 import sys
 import whisper
-import warnings
-import time
 import os
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
